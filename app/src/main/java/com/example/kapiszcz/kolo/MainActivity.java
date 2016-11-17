@@ -22,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String [] tab = {"wisielec", "blablabla", "terefere"};
+        String [] tab = {"lekkoatletyka", "interpunkcja", "telekomunikacja", "metamorfoza", "zwierzchnictwo", "prześladowanie", "antyterrorysta", "dźwiękonaśladownictwo", "antykoncepcja", "kolorowanka", "konstantynopolitański", "lumpenproletariat", "luminescencja", "magnetoelektryczny", "malkontenctwo", "primaaprilisowy", "pięćdziesięciogroszówka", "anatomopatologiczny", "deoksyrybonukleinowy" };
+
+
 
         Random rand = new Random();
         int randomNum = rand.nextInt(tab.length );
